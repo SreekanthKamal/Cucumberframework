@@ -1,0 +1,76 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 5,
+        "name": "Validate OrangeHRM HomePage",
+        "description": "",
+        "id": "orangehrm-application-test;validate-orangehrm-homepage",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 15102887600,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User Opens Browser",
+            "match": {
+              "location": "Stepdefs.user_Opens_Browser()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 91493800,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User Is On LoginPage",
+            "match": {
+              "location": "Stepdefs.user_Is_On_LoginPage()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 6362109100,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "User Enters Username And Password and Clicks On Login Button",
+            "match": {
+              "location": "Stepdefs.user_Enters_Username_And_Password()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1449464300,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "Validate OrangeHRM HomePage",
+            "match": {
+              "location": "Stepdefs.validate_OrangeHRM_HomePage()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 4,
+            "name": "@SmokeTest"
+          }
+        ]
+      }
+    ],
+    "name": "OrangeHRM application Test",
+    "description": "",
+    "id": "orangehrm-application-test",
+    "keyword": "Feature",
+    "uri": "D:/Nagineni/CucumberFramework/BDD_Framework/src/main/java/com/qa/features/Login.Feature"
+  }
+]
