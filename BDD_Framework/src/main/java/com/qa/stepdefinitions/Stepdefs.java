@@ -51,6 +51,6 @@ public class Stepdefs extends TestBase {
 	public void validate_DashboardTabIn_HomePage() throws Throwable {
 		homePage = new HomePage();
 		boolean status = homePage.verifyDashboardTab();
-		Assert.assertEquals(status,false); 
+		Assert.assertEquals(status,true); 
 	}
 }

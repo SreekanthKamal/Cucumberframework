@@ -18,7 +18,7 @@ public class TestBase {
 			prop = new Properties();
 			String environment = "qa";
 			FileInputStream fis = new FileInputStream(
-					"D:/Nagineni/CucumberFramework/BDD_Framework/src/main/java/com/qa/config/"+environment+".properties");
+					"./src/main/java/com/qa/config/"+environment+".properties");
 			prop.load(fis);
 
 		} catch (IOException e) {
